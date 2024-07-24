@@ -1,8 +1,8 @@
 { config, lib, ... }: {
   programs.nixvim = {
     globals = {
-      mapleader = "\\";
-      maplocalleader = "\\";
+      mapleader = " ";
+      maplocalleader = " ";
     };
 
     keymaps = let
@@ -14,7 +14,7 @@
         })
         {
           # Open Neotree
-          "<leader>n" = ":Neotree<CR>";
+          "<leader>e" = ":Neotree<CR>";
 
           # Esc to clear search results
           "<esc>" = ":noh<CR>";

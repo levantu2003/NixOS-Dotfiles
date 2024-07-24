@@ -15,7 +15,7 @@
     wofi
     mpv
     kdenlive
-    discord
+    vesktop
     gparted
     obsidian
     zoom-us
